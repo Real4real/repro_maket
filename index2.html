@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main2.css" />
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+        function drag(ev) {
+            ev.dataTransfer.setData("text",ev.target.id);
+        }
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>  
+    <div id="mainMainContainer">
+    <div id="mainContainer">
+       <div id="topbar">
+           
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li class="dropdown">
+                <a href="" class="dropbtn" >Dropdown</a>
+                <div class="dropdown-content">
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link3</a>
+                </div>
+            </li>
+        </ul>
+
+       </div>
+       <div id="cont940">
+       <div id="header">
+           
+           <div class="tryBOr"></div>
+           <div class="tryAOr">
+               <a href="http://www.web-lesson.ru/site-creation/html/69-kak-sdelat-kartinku-ssylkoj-v-html.html"><img src="css/img/logo.png" alt=""></a>
+           </div>
+       </div>
+       <div id="navigation">
+            <ul>
+                    <li><a href="">Celebrity</a></li>
+                    <li class="dropdown2">
+                            <a href="" class="dropbtn2" >Weird</a>
+                            <div class="dropdown-content2">
+                                <a href="#">Link1</a>
+                                <a href="#">Link2</a>
+                                <a href="#">Link3</a>
+                            </div>
+                        </li>
+                    <li><a href="">Finance</a></li>
+                    <li><a href="">Health</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Sport</a></li>
+                    <li><a href="">World News</a></li>
+                    <li><a href="">Lifestyle</a></li>
+                    <li><a href="">Culture</a></li>
+                    <li><a href="">Home</a></li>
+                    
+            </ul>
+       </div>
+       <div id="mainContent">
+           <div class="leftColumn">
+               <div class="insideC">
+                    <div class="latestPosts">
+                        <div class="imgPosts"><img src=" " alt="" style="background-color: rgba(121, 121, 121, 0.479)"></div>
+                        <div class="miniRightColumn">
+                            <div class="tag">
+                                <span class="zaTag">featured</span>
+                            </div>
+                            <div class="post">
+                                <p class="head">
+                                    Fly Fishers Serving as Transports for Noxious Little Invaders
+                                </p>
+                                <p class="date">
+                                    August 4 2010, 8 Comments
+                                </p>
+                                <p class="text">
+                                    Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="thumbs">
+                            <div class="thumbsCont"></div>
+                            <div class="thumbsCont"></div>
+                            <div class="thumbsCont"></div>
+                            <div class="thumbsCont"></div>
+                            <div class="thumbsCont"></div>
+                            <div class="thumbsCont"></div>    
+                        </div>
+                    </div>
+                    <div class="latestPosts2">
+                        <div class="spanCare4">
+                            <span class="za2">Latest Post</span>
+                        </div>
+                        <div class="contInsidePosts">
+                            <div class="insidePost2">
+                                <div class="contimg">
+
+                                </div>
+                                <div class="latestPost">
+                                    <p class="headLate">
+                                        Fly Fishers Serving as Transports for Noxious Little Invaders
+                                    </p>
+
+                                    <p class="dateLate">
+                                            August 4 2010, 8 Comments
+                                    </p>
+
+                                    <p class="textLate">
+                                        Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="insidePost2">
+                                    <div class="contimg">
+                                    
+                                    </div>
+                                    <div class="latestPost">
+                                            <p class="headLate">
+                                                Fly Fishers Serving as Transports for Noxious Little Invaders
+                                            </p>
+        
+                                            <p class="dateLate">
+                                                    August 4 2010, 8 Comments
+                                            </p>
+        
+                                            <p class="textLate">
+                                                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                                            </p>
+                                        </div>
+                            </div>
+                            <div class="insidePost2">
+                                    <div class="contimg">
+                                    
+                                    </div>
+                                    <div class="latestPost">
+                                            <p class="headLate">
+                                                Fly Fishers Serving as Transports for Noxious Little Invaders
+                                            </p>
+        
+                                            <p class="dateLate">
+                                                    August 4 2010, 8 Comments
+                                            </p>
+        
+                                            <p class="textLate">
+                                                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                                            </p>
+                                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                <div class="postGrid">
+
+                    <!-- <div class="spanCare4">
+                       <span class="za2">Latest Post</span>
+                    </div> -->
+                    <!-- <h1>Lorem, ipsum.</h1> -->
+                    <br>
+                    <!-- заголовок -->
+                    <div class="spanCare5">
+                        <span class="za2">Post Grid</span>
+                     </div>
+                    <!-- заголовок -->
+                    <div class="row">
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                        <div class="thumba"></div>
+                    </div>
+
+                    <div class="contCategory">
+                        <div class="leftCategory">
+                                <div class="spanCare2">
+                                        <span class="za2">Category</span>
+                                    </div>
+                                    <div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div><div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div><div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div>
+                                    <div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div>
+                                    <div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div>
+                                    <div class="borderBottom2">
+                                            <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                    </div>
+                        </div>
+
+                        <div class="rightCategory">
+                                <div class="spanCare2">
+                                        <span class="za2">Category</span>
+                                </div>
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                                
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                                <div class="borderBottom2">
+                                        <p class="imgTry2"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                                </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+               </div>
+           </div>
+
+            <div class="rightColumn">
+                <div class="insideC">
+                    <div class="socioN">
+                        <span class="social"><img src="css/img/rss3.png" alt="">Rss</span>
+                        <span class="social"><img src="css/img/twitter2.png" alt="">Twitter</span>
+                    </div> <br>
+                    <div class="fakeimg">125x125</div> 
+                    <div class="fakeimg">125x125</div>
+                    <div class="fakeimg">125x125</div>
+                    <div class="fakeimg">125x125</div>
+                    <div class="borderPopular">
+                    <div class="popular">
+                            <ul>
+                                    <li><a href="">Tags</a></li>
+                                    <li><a href="">Popular</a></li>
+                                    <li><a href="">Recent</a></li>
+                                    <li><a href="">Comments</a></li>
+                                    
+
+                            </ul>
+                    </div>
+                    <br>
+                    <div class="rightcont">
+                         <div class="contImage">
+                        <div class="borderBottom">
+                                <p class="imgTry"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                        </div>
+                        <div class="borderBottom">
+                                <p class="imgTry"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                        </div>
+                        <div class="borderBottom">
+                                <p class="imgTry"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                        </div>
+                        <div class="borderBottom">
+                                <p class="imgTry"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                        </div>
+                        <div class="borderBottom">
+                                <p class="imgTry"><img src=" " alt="" style="width: 60px; height: 60px; margin-right: 9px; background-color: #d8d8d8; border: 1px solid #d2d2d2;"><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, dolore?</a></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="video">
+                            <div class="spanCare3">
+                                <span class="za2">Video</span>
+                            </div>
+                            <div class="csaf">
+                                <iframe width="290" height="175"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                            
+                            <div class="spanCare3">
+                                <span class="za2">Drag&Drop</span>
+                            </div>
+                            <div class="dragShit">
+                                <div class="divDrops" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                    <img src="css/img/dragLogo.png" draggable="true" ondragstart="drag(event)" id="drag1" width="50px" height="50px">
+                                </div>
+                                <div class="divDrops" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div class="divDrops" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div class="divDrops" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+                            </div>
+
+                            
+                            <div class="sponsors">
+                                <div class="leftSponsor">
+                                        <!-- <div class="frameUp2">
+                                                <div class="up1"><p>Links</p></div>
+                                        </div> -->
+                                        <div class="spanCare2">
+                                            <span class="za2">Links</span>
+                                        </div>
+                                    <ul>
+                                        <li><a href="">January</a></li>
+                                        <li><a href="">February</a></li>
+                                        <li><a href="">March</a></li>
+                                        <li><a href="">April</a></li>
+                                        <li><a href="">May</a></li>
+                                        <li><a href="">June</a></li>
+                                        <li><a href="">July</a></li>
+                                        <li><a href="">August</a></li>
+                                        <li><a href="">September</a></li>
+                                        <li><a href="">October</a></li>
+                                        <li><a href="">November</a></li>
+                                        <li><a href="">December</a></li>
+                                    </ul>
+                                </div>
+                                <div class="rightSrponsor">
+                                        <!-- <div class="frameUp2">
+                                                <div class="up1"><p>Sponsors</p></div>
+                                        </div> -->
+                                        <div class="spanCare2">
+                                            <span class="za2">Sponsors</span>
+                                        </div>
+                                        <div class="sponsorImg"><img src=" " alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                
+                </div>
+            </div>
+       </div>
+       
+       
+    </div>
+    <footer id="f0ter">
+
+            
+                <div class="foo">
+            
+                    <div class="leftFooter1">
+                            <div class="spanCare">
+                                <span class="za">About</span>
+                            </div>
+                            <p class="textFooter">
+                                    Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+
+                                    Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                            </p>
+                    </div>
+    
+                    <div class="leftFooter2">
+                            <div class="spanCare">
+                                <span class="za">Twitter</span>
+                            </div>
+                            <p class="textFooter">
+                                    <span class="spant">@laurakalbag</span> I will be very soon. As a result of your previous recommendation on a blog post so it happens :) <span class="spant">31 minutes ago</span> 
+                                    <br> 
+                            </p>
+
+                            <p class="textFooter">
+                                    <span class="spant">@laurakalbag</span> you got chocolates!? That's it, I'm signing up.<span class="spant">37 minutes ago</span>
+                                    <br> 
+                            </p>
+                            <p class="textFooter"> 
+                                    
+                                    RT <span class="spant">@tullett</span>: Emails that start with "Dear contact" make me feel so special  <span class="spant">50 minutes ago</span>
+                                    <br> 
+                            </p>
+                            <p class="textFooter"> 
+                                    
+                                    <span class="spant">@ormanclark</span>on Twitter 
+                                    <br> 
+                            </p>
+                    </div>
+    
+                    <div class="leftFooter3">
+                        <div class="spanCare">
+                                <span class="za">About</span>
+                        </div>
+                        <p class="textFooter">
+                                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro fugit verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+
+                                Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur...
+                        </p>
+                    </div>
+    
+                    <div class="leftFooter4">
+                        <div><a href=""><img src="css/img/logo_black.png" alt="index2.html"></a></div>
+                    </div>
+    
+                </div>
+                <div class="superClasss">
+                    <span></span>
+                    <p class="footerP1">Copyright 2010 <span>Repro.</span> All rights Reserved.</p>
+                    <p class="footerP2">Powered by <span>WordPress.</span> <span>Repro theme </span>by <span>4Real</span></p>
+                </div>
+            
+    
+           </footer>
+    </div>
+</div>
+</body>
+</html>
